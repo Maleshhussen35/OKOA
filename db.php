@@ -1,9 +1,11 @@
 <?php
 session_start();
-$host = 'localhost';
-$db   = 'sem';
-$user = 'root';
-$pass = 'Mahira10';
+// Example for PHP (config.php):
+    $db_host = 'sql105.infinityfree.com';    // MySQL Hostname
+    $db_user = 'IfO_38794974';               // MySQL Username
+    $db_pass = 'M3KsDkNndX';         // MySQL Password (set in Step 1)
+    $db_name = 'IfO_38794974_okoa';           // Database Name (replace XXX)
+    $db_port = 3306;                         // Port (optional)
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
